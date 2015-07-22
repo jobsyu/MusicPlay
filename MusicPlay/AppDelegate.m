@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //设置音乐后台播放的会话类型 //设置播放会话，在后台可以继续播放（还需要设置程序允许后台运行模式）
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    [session setActive:YES error:nil];
+    
+    //开启接收远程事件
+    [application  beginReceivingRemoteControlEvents];
     return YES;
 }
 
@@ -26,8 +33,25 @@
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    //开启后台任务
+    [application beginBackgroundTaskWithExpirationHandler:nil];
+}
+
+#pragma mark 接收远程事件
+-(void)remoteControlReceivedWithEvent:(UIEvent *)event
+{
+    //判断是否为远程事件
+    if (event.type == UIEventTypeRemoteControl) {
+        NSLog(@"接收到远程事件");
+        //        UIEventSubtypeRemoteControlPlay                播放
+        //        UIEventSubtypeRemoteControlPause               暂停,
+        //        UIEventSubtypeRemoteControlStop                停止,
+        //        UIEventSubtypeRemoteControlPreviousTrack      上一首
+        //        UIEventSubtypeRemoteControlNextTrack           下一首,
+        //event.subtype = UIEventSubtypeRemoteControlNextTrack
+        //调用block
+        self.mRemoteEventBlock(event);
+    }
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {

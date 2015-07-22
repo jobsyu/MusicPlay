@@ -14,6 +14,43 @@
 		C5259C5A1B5E3BAB00199982 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5259C591B5E3BAB00199982 /* Images.xcassets */; };
 		C5259C5D1B5E3BAB00199982 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5259C5B1B5E3BAB00199982 /* LaunchScreen.xib */; };
 		C5259C691B5E3BAB00199982 /* MusicPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259C681B5E3BAB00199982 /* MusicPlayTests.m */; };
+		C5259C881B5E415100199982 /* Let It Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5259C741B5E415100199982 /* Let It Go.mp3 */; };
+		C5259C891B5E415100199982 /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5259C751B5E415100199982 /* 小苹果.mp3 */; };
+		C5259C8A1B5E415100199982 /* 愿得一人心(剧场版).lrc in Resources */ = {isa = PBXBuildFile; fileRef = C5259C761B5E415100199982 /* 愿得一人心(剧场版).lrc */; };
+		C5259C8B1B5E415100199982 /* 愿得一人心(剧场版).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5259C771B5E415100199982 /* 愿得一人心(剧场版).mp3 */; };
+		C5259C8C1B5E415100199982 /* 昨迟人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5259C781B5E415100199982 /* 昨迟人.mp3 */; };
+		C5259C8D1B5E415100199982 /* 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5259C791B5E415100199982 /* 泡沫.mp3 */; };
+		C5259C8E1B5E415100199982 /* 爱莫忘.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5259C7A1B5E415100199982 /* 爱莫忘.mp3 */; };
+		C5259C8F1B5E415100199982 /* 爸爸去哪儿.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5259C7B1B5E415100199982 /* 爸爸去哪儿.mp3 */; };
+		C5259C901B5E415100199982 /* bbqne_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C7D1B5E415100199982 /* bbqne_100.png */; };
+		C5259C911B5E415100199982 /* bbqne_400.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C7E1B5E415100199982 /* bbqne_400.png */; };
+		C5259C921B5E415100199982 /* gem_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C7F1B5E415100199982 /* gem_100.png */; };
+		C5259C931B5E415100199982 /* gem_400.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C801B5E415100199982 /* gem_400.png */; };
+		C5259C941B5E415100199982 /* kzxd_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C811B5E415100199982 /* kzxd_100.png */; };
+		C5259C951B5E415100199982 /* kzxd_400.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C821B5E415100199982 /* kzxd_400.png */; };
+		C5259C961B5E415100199982 /* song_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C831B5E415100199982 /* song_100.png */; };
+		C5259C971B5E415100199982 /* song_400.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C841B5E415100199982 /* song_400.png */; };
+		C5259C981B5E415100199982 /* zxy_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C851B5E415100199982 /* zxy_100.png */; };
+		C5259C991B5E415100199982 /* zxy_400.png in Resources */ = {isa = PBXBuildFile; fileRef = C5259C861B5E415100199982 /* zxy_400.png */; };
+		C5259C9A1B5E415100199982 /* songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5259C871B5E415100199982 /* songs.plist */; };
+		C5259CA51B5E430700199982 /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CA41B5E430700199982 /* MusicPlayerViewController.m */; };
+		C5259CA81B5E432B00199982 /* MusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CA71B5E432B00199982 /* MusicCell.m */; };
+		C5259CAE1B5E43A500199982 /* PlayerToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CAD1B5E43A500199982 /* PlayerToolBar.m */; };
+		C5259CCC1B5E440600199982 /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CBA1B5E440600199982 /* MJArgument.m */; };
+		C5259CCD1B5E440600199982 /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CBD1B5E440600199982 /* MJIvar.m */; };
+		C5259CCE1B5E440600199982 /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CBF1B5E440600199982 /* MJMember.m */; };
+		C5259CCF1B5E440600199982 /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CC11B5E440600199982 /* MJMethod.m */; };
+		C5259CD01B5E440600199982 /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CC31B5E440600199982 /* MJType.m */; };
+		C5259CD11B5E440600199982 /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CC51B5E440600199982 /* MJTypeEncoding.m */; };
+		C5259CD21B5E440600199982 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CC71B5E440600199982 /* NSObject+MJCoding.m */; };
+		C5259CD31B5E440600199982 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CC91B5E440600199982 /* NSObject+MJKeyValue.m */; };
+		C5259CD41B5E440600199982 /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CCB1B5E440600199982 /* NSObject+MJMember.m */; };
+		C5259CD81B5E444300199982 /* MusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CD71B5E444300199982 /* MusicTool.m */; };
+		C5259CDC1B5E447F00199982 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CDB1B5E447F00199982 /* Music.m */; };
+		C5259CDE1B5E46C900199982 /* PlayerToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5259CDD1B5E46C900199982 /* PlayerToolBar.xib */; };
+		C5259CE11B5E5C8E00199982 /* UIImage+MP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CE01B5E5C8E00199982 /* UIImage+MP.m */; };
+		C5259CE41B5E5EFB00199982 /* UIButton+MP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CE31B5E5EFB00199982 /* UIButton+MP.m */; };
+		C5259CE71B5E5F1800199982 /* NSString+MP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259CE61B5E5F1800199982 /* NSString+MP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +77,62 @@
 		C5259C621B5E3BAB00199982 /* MusicPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5259C671B5E3BAB00199982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5259C681B5E3BAB00199982 /* MusicPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayTests.m; sourceTree = "<group>"; };
+		C5259C741B5E415100199982 /* Let It Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Let It Go.mp3"; sourceTree = "<group>"; };
+		C5259C751B5E415100199982 /* 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小苹果.mp3"; sourceTree = "<group>"; };
+		C5259C761B5E415100199982 /* 愿得一人心(剧场版).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "愿得一人心(剧场版).lrc"; sourceTree = "<group>"; };
+		C5259C771B5E415100199982 /* 愿得一人心(剧场版).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "愿得一人心(剧场版).mp3"; sourceTree = "<group>"; };
+		C5259C781B5E415100199982 /* 昨迟人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "昨迟人.mp3"; sourceTree = "<group>"; };
+		C5259C791B5E415100199982 /* 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "泡沫.mp3"; sourceTree = "<group>"; };
+		C5259C7A1B5E415100199982 /* 爱莫忘.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爱莫忘.mp3"; sourceTree = "<group>"; };
+		C5259C7B1B5E415100199982 /* 爸爸去哪儿.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爸爸去哪儿.mp3"; sourceTree = "<group>"; };
+		C5259C7D1B5E415100199982 /* bbqne_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbqne_100.png; sourceTree = "<group>"; };
+		C5259C7E1B5E415100199982 /* bbqne_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbqne_400.png; sourceTree = "<group>"; };
+		C5259C7F1B5E415100199982 /* gem_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_100.png; sourceTree = "<group>"; };
+		C5259C801B5E415100199982 /* gem_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_400.png; sourceTree = "<group>"; };
+		C5259C811B5E415100199982 /* kzxd_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kzxd_100.png; sourceTree = "<group>"; };
+		C5259C821B5E415100199982 /* kzxd_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kzxd_400.png; sourceTree = "<group>"; };
+		C5259C831B5E415100199982 /* song_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = song_100.png; sourceTree = "<group>"; };
+		C5259C841B5E415100199982 /* song_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = song_400.png; sourceTree = "<group>"; };
+		C5259C851B5E415100199982 /* zxy_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zxy_100.png; sourceTree = "<group>"; };
+		C5259C861B5E415100199982 /* zxy_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zxy_400.png; sourceTree = "<group>"; };
+		C5259C871B5E415100199982 /* songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songs.plist; sourceTree = "<group>"; };
+		C5259CA31B5E430700199982 /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		C5259CA41B5E430700199982 /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		C5259CA61B5E432B00199982 /* MusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCell.h; sourceTree = "<group>"; };
+		C5259CA71B5E432B00199982 /* MusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCell.m; sourceTree = "<group>"; };
+		C5259CAC1B5E43A500199982 /* PlayerToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerToolBar.h; sourceTree = "<group>"; };
+		C5259CAD1B5E43A500199982 /* PlayerToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerToolBar.m; sourceTree = "<group>"; };
+		C5259CB91B5E440600199982 /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		C5259CBA1B5E440600199982 /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		C5259CBB1B5E440600199982 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		C5259CBC1B5E440600199982 /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		C5259CBD1B5E440600199982 /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		C5259CBE1B5E440600199982 /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		C5259CBF1B5E440600199982 /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		C5259CC01B5E440600199982 /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		C5259CC11B5E440600199982 /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		C5259CC21B5E440600199982 /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		C5259CC31B5E440600199982 /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		C5259CC41B5E440600199982 /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		C5259CC51B5E440600199982 /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		C5259CC61B5E440600199982 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		C5259CC71B5E440600199982 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		C5259CC81B5E440600199982 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		C5259CC91B5E440600199982 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		C5259CCA1B5E440600199982 /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		C5259CCB1B5E440600199982 /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		C5259CD61B5E444300199982 /* MusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTool.h; sourceTree = "<group>"; };
+		C5259CD71B5E444300199982 /* MusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTool.m; sourceTree = "<group>"; };
+		C5259CD91B5E445E00199982 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		C5259CDA1B5E447F00199982 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		C5259CDB1B5E447F00199982 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		C5259CDD1B5E46C900199982 /* PlayerToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerToolBar.xib; sourceTree = "<group>"; };
+		C5259CDF1B5E5C8E00199982 /* UIImage+MP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MP.h"; sourceTree = "<group>"; };
+		C5259CE01B5E5C8E00199982 /* UIImage+MP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MP.m"; sourceTree = "<group>"; };
+		C5259CE21B5E5EFB00199982 /* UIButton+MP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MP.h"; sourceTree = "<group>"; };
+		C5259CE31B5E5EFB00199982 /* UIButton+MP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MP.m"; sourceTree = "<group>"; };
+		C5259CE51B5E5F1800199982 /* NSString+MP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MP.h"; sourceTree = "<group>"; };
+		C5259CE61B5E5F1800199982 /* NSString+MP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MP.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +174,11 @@
 		C5259C4B1B5E3BAB00199982 /* MusicPlay */ = {
 			isa = PBXGroup;
 			children = (
+				C5259CA21B5E42CD00199982 /* Model */,
+				C5259CA11B5E42C500199982 /* View */,
+				C5259CA01B5E42B900199982 /* Controller */,
+				C5259C9C1B5E426500199982 /* Lib */,
+				C5259C9B1B5E425E00199982 /* Tool */,
 				C5259C501B5E3BAB00199982 /* AppDelegate.h */,
 				C5259C511B5E3BAB00199982 /* AppDelegate.m */,
 				C5259C531B5E3BAB00199982 /* ViewController.h */,
@@ -96,6 +194,7 @@
 		C5259C4C1B5E3BAB00199982 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5259C721B5E415100199982 /* resouces */,
 				C5259C4D1B5E3BAB00199982 /* Info.plist */,
 				C5259C4E1B5E3BAB00199982 /* main.m */,
 			);
@@ -117,6 +216,144 @@
 				C5259C671B5E3BAB00199982 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5259C721B5E415100199982 /* resouces */ = {
+			isa = PBXGroup;
+			children = (
+				C5259C731B5E415100199982 /* MP3 */,
+				C5259C7C1B5E415100199982 /* SingerImages */,
+				C5259C871B5E415100199982 /* songs.plist */,
+			);
+			path = resouces;
+			sourceTree = "<group>";
+		};
+		C5259C731B5E415100199982 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				C5259C741B5E415100199982 /* Let It Go.mp3 */,
+				C5259C751B5E415100199982 /* 小苹果.mp3 */,
+				C5259C761B5E415100199982 /* 愿得一人心(剧场版).lrc */,
+				C5259C771B5E415100199982 /* 愿得一人心(剧场版).mp3 */,
+				C5259C781B5E415100199982 /* 昨迟人.mp3 */,
+				C5259C791B5E415100199982 /* 泡沫.mp3 */,
+				C5259C7A1B5E415100199982 /* 爱莫忘.mp3 */,
+				C5259C7B1B5E415100199982 /* 爸爸去哪儿.mp3 */,
+			);
+			path = MP3;
+			sourceTree = "<group>";
+		};
+		C5259C7C1B5E415100199982 /* SingerImages */ = {
+			isa = PBXGroup;
+			children = (
+				C5259C7D1B5E415100199982 /* bbqne_100.png */,
+				C5259C7E1B5E415100199982 /* bbqne_400.png */,
+				C5259C7F1B5E415100199982 /* gem_100.png */,
+				C5259C801B5E415100199982 /* gem_400.png */,
+				C5259C811B5E415100199982 /* kzxd_100.png */,
+				C5259C821B5E415100199982 /* kzxd_400.png */,
+				C5259C831B5E415100199982 /* song_100.png */,
+				C5259C841B5E415100199982 /* song_400.png */,
+				C5259C851B5E415100199982 /* zxy_100.png */,
+				C5259C861B5E415100199982 /* zxy_400.png */,
+			);
+			path = SingerImages;
+			sourceTree = "<group>";
+		};
+		C5259C9B1B5E425E00199982 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C5259CD91B5E445E00199982 /* Singleton.h */,
+				C5259CD61B5E444300199982 /* MusicTool.h */,
+				C5259CD71B5E444300199982 /* MusicTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		C5259C9C1B5E426500199982 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C5259C9E1B5E427C00199982 /* MJExtension */,
+				C5259C9D1B5E427100199982 /* Category */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		C5259C9D1B5E427100199982 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C5259CDF1B5E5C8E00199982 /* UIImage+MP.h */,
+				C5259CE01B5E5C8E00199982 /* UIImage+MP.m */,
+				C5259CE21B5E5EFB00199982 /* UIButton+MP.h */,
+				C5259CE31B5E5EFB00199982 /* UIButton+MP.m */,
+				C5259CE51B5E5F1800199982 /* NSString+MP.h */,
+				C5259CE61B5E5F1800199982 /* NSString+MP.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		C5259C9E1B5E427C00199982 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C5259CB81B5E440600199982 /* MJExtension */,
+			);
+			name = MJExtension;
+			sourceTree = "<group>";
+		};
+		C5259CA01B5E42B900199982 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5259CA31B5E430700199982 /* MusicPlayerViewController.h */,
+				C5259CA41B5E430700199982 /* MusicPlayerViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C5259CA11B5E42C500199982 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5259CA61B5E432B00199982 /* MusicCell.h */,
+				C5259CA71B5E432B00199982 /* MusicCell.m */,
+				C5259CAC1B5E43A500199982 /* PlayerToolBar.h */,
+				C5259CAD1B5E43A500199982 /* PlayerToolBar.m */,
+				C5259CDD1B5E46C900199982 /* PlayerToolBar.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C5259CA21B5E42CD00199982 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5259CDA1B5E447F00199982 /* Music.h */,
+				C5259CDB1B5E447F00199982 /* Music.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C5259CB81B5E440600199982 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C5259CB91B5E440600199982 /* MJArgument.h */,
+				C5259CBA1B5E440600199982 /* MJArgument.m */,
+				C5259CBB1B5E440600199982 /* MJExtension.h */,
+				C5259CBC1B5E440600199982 /* MJIvar.h */,
+				C5259CBD1B5E440600199982 /* MJIvar.m */,
+				C5259CBE1B5E440600199982 /* MJMember.h */,
+				C5259CBF1B5E440600199982 /* MJMember.m */,
+				C5259CC01B5E440600199982 /* MJMethod.h */,
+				C5259CC11B5E440600199982 /* MJMethod.m */,
+				C5259CC21B5E440600199982 /* MJType.h */,
+				C5259CC31B5E440600199982 /* MJType.m */,
+				C5259CC41B5E440600199982 /* MJTypeEncoding.h */,
+				C5259CC51B5E440600199982 /* MJTypeEncoding.m */,
+				C5259CC61B5E440600199982 /* NSObject+MJCoding.h */,
+				C5259CC71B5E440600199982 /* NSObject+MJCoding.m */,
+				C5259CC81B5E440600199982 /* NSObject+MJKeyValue.h */,
+				C5259CC91B5E440600199982 /* NSObject+MJKeyValue.m */,
+				C5259CCA1B5E440600199982 /* NSObject+MJMember.h */,
+				C5259CCB1B5E440600199982 /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +436,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5259C991B5E415100199982 /* zxy_400.png in Resources */,
+				C5259C941B5E415100199982 /* kzxd_100.png in Resources */,
+				C5259C951B5E415100199982 /* kzxd_400.png in Resources */,
+				C5259C971B5E415100199982 /* song_400.png in Resources */,
+				C5259C891B5E415100199982 /* 小苹果.mp3 in Resources */,
 				C5259C581B5E3BAB00199982 /* Main.storyboard in Resources */,
+				C5259C8A1B5E415100199982 /* 愿得一人心(剧场版).lrc in Resources */,
+				C5259C9A1B5E415100199982 /* songs.plist in Resources */,
+				C5259C8B1B5E415100199982 /* 愿得一人心(剧场版).mp3 in Resources */,
 				C5259C5D1B5E3BAB00199982 /* LaunchScreen.xib in Resources */,
+				C5259C921B5E415100199982 /* gem_100.png in Resources */,
 				C5259C5A1B5E3BAB00199982 /* Images.xcassets in Resources */,
+				C5259CDE1B5E46C900199982 /* PlayerToolBar.xib in Resources */,
+				C5259C931B5E415100199982 /* gem_400.png in Resources */,
+				C5259C8F1B5E415100199982 /* 爸爸去哪儿.mp3 in Resources */,
+				C5259C8D1B5E415100199982 /* 泡沫.mp3 in Resources */,
+				C5259C901B5E415100199982 /* bbqne_100.png in Resources */,
+				C5259C8C1B5E415100199982 /* 昨迟人.mp3 in Resources */,
+				C5259C881B5E415100199982 /* Let It Go.mp3 in Resources */,
+				C5259C911B5E415100199982 /* bbqne_400.png in Resources */,
+				C5259C981B5E415100199982 /* zxy_100.png in Resources */,
+				C5259C961B5E415100199982 /* song_100.png in Resources */,
+				C5259C8E1B5E415100199982 /* 爱莫忘.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +476,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5259CE41B5E5EFB00199982 /* UIButton+MP.m in Sources */,
+				C5259CCD1B5E440600199982 /* MJIvar.m in Sources */,
+				C5259CCC1B5E440600199982 /* MJArgument.m in Sources */,
 				C5259C551B5E3BAB00199982 /* ViewController.m in Sources */,
+				C5259CE11B5E5C8E00199982 /* UIImage+MP.m in Sources */,
+				C5259CD01B5E440600199982 /* MJType.m in Sources */,
+				C5259CCE1B5E440600199982 /* MJMember.m in Sources */,
 				C5259C521B5E3BAB00199982 /* AppDelegate.m in Sources */,
+				C5259CE71B5E5F1800199982 /* NSString+MP.m in Sources */,
+				C5259CD31B5E440600199982 /* NSObject+MJKeyValue.m in Sources */,
 				C5259C4F1B5E3BAB00199982 /* main.m in Sources */,
+				C5259CD81B5E444300199982 /* MusicTool.m in Sources */,
+				C5259CDC1B5E447F00199982 /* Music.m in Sources */,
+				C5259CD11B5E440600199982 /* MJTypeEncoding.m in Sources */,
+				C5259CA51B5E430700199982 /* MusicPlayerViewController.m in Sources */,
+				C5259CD21B5E440600199982 /* NSObject+MJCoding.m in Sources */,
+				C5259CAE1B5E43A500199982 /* PlayerToolBar.m in Sources */,
+				C5259CCF1B5E440600199982 /* MJMethod.m in Sources */,
+				C5259CD41B5E440600199982 /* NSObject+MJMember.m in Sources */,
+				C5259CA81B5E432B00199982 /* MusicCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
